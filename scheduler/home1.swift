@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  home1.swift
 //  scheduler
 //
 //  Created by 中村　朝陽 on 2017/08/12.
@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import Foundation
 
-class main: UIViewController {
+class home1: UIViewController {
     @IBOutlet weak var label: UITextField!
     
+    var count = 1
     let color: UIColor = UIColor()
     
     override func viewDidLoad() {
@@ -19,7 +21,13 @@ class main: UIViewController {
     }
     
     @IBAction func 背景色(_ sender: Any) {
-        label.text = "OK!"
+        if count == 1 {
+            label.text = "OK!"
+            count = 0
+        }else{
+            label.text = "NO"
+            count = 1
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

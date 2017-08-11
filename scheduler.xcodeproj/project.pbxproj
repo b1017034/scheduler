@@ -14,7 +14,7 @@
 		41F6C0241F3E045F00D99D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F6C0221F3E045F00D99D92 /* LaunchScreen.storyboard */; };
 		41F6C02F1F3E045F00D99D92 /* schedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6C02E1F3E045F00D99D92 /* schedulerTests.swift */; };
 		41F6C03A1F3E045F00D99D92 /* schedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6C0391F3E045F00D99D92 /* schedulerUITests.swift */; };
-		41F6C0481F3E07C800D99D92 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6C0471F3E07C800D99D92 /* main.swift */; };
+		41F6C0481F3E07C800D99D92 /* home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F6C0471F3E07C800D99D92 /* home1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		41F6C0351F3E045F00D99D92 /* schedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F6C0391F3E045F00D99D92 /* schedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedulerUITests.swift; sourceTree = "<group>"; };
 		41F6C03B1F3E045F00D99D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41F6C0471F3E07C800D99D92 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		41F6C0471F3E07C800D99D92 /* home1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		41F6C0181F3E045F00D99D92 /* scheduler */ = {
 			isa = PBXGroup;
 			children = (
-				41F6C0471F3E07C800D99D92 /* main.swift */,
+				41F6C0471F3E07C800D99D92 /* home1.swift */,
 				41F6C0191F3E045F00D99D92 /* AppDelegate.swift */,
 				41F6C01B1F3E045F00D99D92 /* ViewController.swift */,
 				41F6C01D1F3E045F00D99D92 /* Main.storyboard */,
@@ -267,7 +267,7 @@
 			files = (
 				41F6C01C1F3E045F00D99D92 /* ViewController.swift in Sources */,
 				41F6C01A1F3E045F00D99D92 /* AppDelegate.swift in Sources */,
-				41F6C0481F3E07C800D99D92 /* main.swift in Sources */,
+				41F6C0481F3E07C800D99D92 /* home1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +426,8 @@
 				DEVELOPMENT_TEAM = CXL7F9J64Z;
 				INFOPLIST_FILE = scheduler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.scheduler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -439,6 +441,8 @@
 				DEVELOPMENT_TEAM = CXL7F9J64Z;
 				INFOPLIST_FILE = scheduler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.scheduler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
